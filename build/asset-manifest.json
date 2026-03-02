@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/static/css/main.7984f3df.css",
+    "main.js": "/static/js/main.165c21e6.js",
+    "static/js/453.3a7d470b.chunk.js": "/static/js/453.3a7d470b.chunk.js",
+    "static/media/profile6.jpg": "/static/media/profile6.ec45f9ab6ee24c90502e.jpg",
+    "static/media/profile1.png": "/static/media/profile1.beb8be1537aeb0929f0e.png",
+    "static/media/sunset1.jpg": "/static/media/sunset1.60e43469301a34300287.jpg",
+    "static/media/breakmap1.jpg": "/static/media/breakmap1.d4cd19199b3ee018b07e.jpg",
+    "static/media/acai1.jpg": "/static/media/acai1.a0e285d049482895ca25.jpg",
+    "static/media/sunset4.jpg": "/static/media/sunset4.d48be201ede5c4825625.jpg",
+    "static/media/sunset2.jpg": "/static/media/sunset2.e1b51692f5c3cbc32b4f.jpg",
+    "static/media/profile5.jpeg": "/static/media/profile5.06c02bf5bc378a10a6ae.jpeg",
+    "static/media/acai3.jpg": "/static/media/acai3.5335520ea50a4d1a658b.jpg",
+    "static/media/profile4.jpeg": "/static/media/profile4.b28f8e838cceadeadeb2.jpeg",
+    "static/media/profile3.jpeg": "/static/media/profile3.8abea1b80849e8b54d4b.jpeg",
+    "static/media/profile2.jpeg": "/static/media/profile2.e6986907a050e3e695f1.jpeg",
+    "static/media/acai2.jpg": "/static/media/acai2.f06ea18331b36a79b413.jpg",
+    "static/media/breakmap3.jpg": "/static/media/breakmap3.0d3186828fe34abcc5af.jpg",
+    "static/media/acai4.jpg": "/static/media/acai4.db87f41c2ff31455a8b5.jpg",
+    "static/media/breakmap2.jpg": "/static/media/breakmap2.e4dcff12d6b37ab10df0.jpg",
+    "static/media/breakmap4.jpg": "/static/media/breakmap4.1dfe49ddcdce939bb3df.jpg",
+    "static/media/sunset3.jpg": "/static/media/sunset3.3b089fa29414a7fae020.jpg",
+    "index.html": "/index.html",
+    "main.7984f3df.css.map": "/static/css/main.7984f3df.css.map",
+    "main.165c21e6.js.map": "/static/js/main.165c21e6.js.map",
+    "453.3a7d470b.chunk.js.map": "/static/js/453.3a7d470b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7984f3df.css",
+    "static/js/main.165c21e6.js"
+  ]
+}
