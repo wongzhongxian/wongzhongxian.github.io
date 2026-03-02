@@ -1,5 +1,4 @@
 import React, { useState, useEffect, useRef } from 'react';
-
 import profilePic1 from './pics/profile1.png'; 
 import profilePic2 from './pics/profile2.jpeg'; 
 import profilePic3 from './pics/profile3.jpeg'; 
@@ -227,6 +226,13 @@ const App = () => {
       let output = '';
       let newCwd = cwd;
 
+      const funfacts = ['I can solve a Rubik\'s cube in under a minute. 🧊', 'My whole family has the same horoscope! ♉', 'I am forklift ceritfied for some reason. 🚜', 'My favourite animal is the wombat <3', 'My favourite Wingstop flavour is Lemon Pepper! 🍋'];
+
+      function getRandomString(arr) {
+        const randomIndex = Math.floor(Math.random() * arr.length);
+        return arr[randomIndex];
+      }
+
       if (command === 'help') {
         output = 'Available commands: about, skills, funfact, clear, ls, cd <dir>, cat <file>';
       } else if (command === 'about') {
@@ -234,7 +240,7 @@ const App = () => {
       } else if (command === 'skills') {
         output = 'Python, Swift, Java, JavaScript, React, SQL and more :)';
       } else if (command === 'funfact') {
-        output = 'I can solve a Rubik\'s cube in under a minute. 🧊';
+        output = getRandomString(funfacts);
       } else if (command === 'clear') {
         setHistory([]);
         setInput('');
