@@ -1,6 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
 
-// ✨ UPDATED: Now pulling from the 'pics' folder! 👇
 import profilePic1 from './pics/profile1.png'; 
 import profilePic2 from './pics/profile2.jpeg'; 
 import profilePic3 from './pics/profile3.jpeg'; 
@@ -30,9 +29,7 @@ const customStyles = `
   .hide-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
 `;
 
-// =======================================================================
-// 👑 MINI-GAME COMPONENT: LORDLE
-// =======================================================================
+
 const Lordle = ({ isDarkMode }) => {
   const LORDE_WORDS = ["ROYAL", "SOLAR", "TEETH", "SOBER", "POWER", "DAVID"];
   const [targetWord] = useState(() => LORDE_WORDS[Math.floor(Math.random() * LORDE_WORDS.length)]);
@@ -133,9 +130,6 @@ const Lordle = ({ isDarkMode }) => {
 };
 
 
-// =======================================================================
-// 🚀 MAIN APP COMPONENT
-// =======================================================================
 const App = () => {
   const [cwd, setCwd] = useState('~');
   const [history, setHistory] = useState([
@@ -165,7 +159,6 @@ const App = () => {
     window.scrollTo(0, 0);
   }, [activeProject]);
 
-  // ✨ NEW: Lock background scrolling when gallery modal is open
   useEffect(() => {
     if (galleryImage) {
       document.body.style.overflow = 'hidden';
@@ -329,9 +322,7 @@ const App = () => {
     }
   ];
 
-  // =======================================================================
-  // 🚀 PROJECT DETAIL VIEW RENDERING
-  // =======================================================================
+
   if (activeProject) {
     return (
       <div className={`min-h-screen font-sans pb-10 transition-colors duration-500 ${isDarkMode ? 'bg-slate-900 text-slate-50' : 'bg-slate-50 text-slate-900'}`}>
@@ -399,7 +390,6 @@ const App = () => {
           )}
         </main>
 
-        {/* ✨ UPDATED: Lightbox moved OUTSIDE of main to fix the centering issue! */}
         {galleryImage && (
           <div 
             style={{ animation: 'fadeIn 0.2s ease-out forwards' }}
@@ -419,9 +409,6 @@ const App = () => {
     );
   }
 
-  // =======================================================================
-  // 🏠 MAIN PORTFOLIO VIEW RENDERING
-  // =======================================================================
   
   const profileGalleryImages = [profilePic1, profilePic2, profilePic3, profilePic4, profilePic5, profilePic6]; 
 
@@ -443,8 +430,7 @@ const App = () => {
         className="max-w-5xl mx-auto py-12 px-6" 
         style={{ animation: isTransitioning ? 'fadeOutDown 0.3s ease-in forwards' : 'slideUp 0.4s ease-out forwards' }}
       >
-        
-        {/* THE TERMINAL FLEX 💅 */}
+
         <section id="terminal" className="mb-20">
           <div className="bg-[#1e1e1e] rounded-xl overflow-hidden shadow-2xl border border-slate-700">
             <div className="bg-[#323233] px-4 py-3 flex items-center gap-2">
@@ -613,7 +599,6 @@ const App = () => {
         </footer>
       </main>
 
-      {/* ✨ UPDATED: Lightbox moved OUTSIDE of main here too! */}
       {galleryImage && (
         <div 
           style={{ animation: 'fadeIn 0.2s ease-out forwards' }}
