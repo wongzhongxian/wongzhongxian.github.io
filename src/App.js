@@ -209,9 +209,9 @@ const App = () => {
 
   const fileContents = {
     '~/projects/breakmap.swift': 'import SwiftUI\n\nstruct ContentView: View {\n    var body: some View {\n        Text("Tracking power and freezes...")\n    }\n}',
-    '~/projects/sunset_bot.py': 'import requests\nimport telebot\n\ndef get_sunset_quality():\n    # Fetching weather API to predict sunset colors\n    return "100% gorgeous, just like this code"',
+    '~/projects/sunset_bot.py': 'import requests\nimport telebot\n\ndef get_sunset_quality():\n    # Fetching weather API to predict sunset colors\n    return "100% gorgeous, just like the reader"',
     '~/projects/acai_bot.py': 'import sqlite3\nimport telebot\n\n# Acailability Orders\ndef process_order(user_id, item):\n    db.execute("INSERT INTO orders...")\n    return "Order secured. 🥣"',
-    '~/education/nus_transcript.pdf': 'Error: GPA too high. Cannot render PDF in standard text output.\nHint: Starts with a 5 and ends with a .0 :)',
+    '~/education/nus_transcript.pdf': 'Error: GPA too high. Cannot render PDF in standard text output. :)',
     '~/education/tembusu_college.txt': 'I LOVE TEMBUUUU\nShan House Best House\nYou heard it here first: I wanna host an eating competition during reading week 🤫',
     '~/hobbies/breakinus.mp4': 'Error: Binary video file.\nToo much heat to render in standard text.',
   };
@@ -236,7 +236,7 @@ const App = () => {
       if (command === 'help') {
         output = 'Available commands: about, skills, funfact, clear, ls, cd <dir>, cat <file>';
       } else if (command === 'about') {
-        output = 'Scholar. Problem Solver. Breaker. Builder.';
+        output = 'Problem Solver. Learner. Breaker. Builder.';
       } else if (command === 'skills') {
         output = 'Python, Swift, Java, JavaScript, React, SQL and more :)';
       } else if (command === 'funfact') {
