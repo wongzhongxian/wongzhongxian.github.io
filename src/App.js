@@ -303,6 +303,14 @@ const App = () => {
       github: "https://apps.apple.com/us/app/breakmap-b-boy-companion-app/id6759797675" 
     },
     {
+      title: "This Website!",
+      description: "A responsive, single-page application featuring a custom functional command-line interface and modern UI.",
+      longDescription: "You are looking at it! 💅 I built this entire Single Page Application using React and Tailwind CSS. It features custom state management for a simulated UNIX terminal file system, dynamic dark mode routing, and conditional rendering for these beautiful project detail pages.",
+      tech: ["React", "Tailwind CSS", "JavaScript", "HTML", "Next.js"],
+      images: [],
+      github: "https://github.com/yourusername/portfolio-v1"
+    },
+    {
       title: "Singapore Sunset Bot",
       description: "Telegram bot predicting sunset beauty using a weather API and letting users share sunset photos with each other.",
       longDescription: "A Python-based Telegram bot using external weather APIs and a SQLite database. It analyzes atmospheric data to predict the quality of upcoming sunsets in Singapore. Also implements a community feature allowing users to upload and share their sunset photography, as well as rate fellow users' photos.",
@@ -317,14 +325,6 @@ const App = () => {
       tech: ["Python", "SQLite"],
       images: [acaiPic1, acaiPic2, acaiPic3, acaiPic4],
       github: "https://github.com/wongzhongxian/acai-bot"
-    },
-    {
-      title: "This Website!",
-      description: "A responsive, single-page application featuring a custom functional command-line interface and modern UI.",
-      longDescription: "You are looking at it! 💅 I built this entire Single Page Application using React and Tailwind CSS. It features custom state management for a simulated UNIX terminal file system, dynamic dark mode routing, and conditional rendering for these beautiful project detail pages.",
-      tech: ["React", "Tailwind CSS", "JavaScript", "HTML", "Next.js"],
-      images: [],
-      github: "https://github.com/yourusername/portfolio-v1"
     }
   ];
 
