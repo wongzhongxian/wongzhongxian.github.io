@@ -298,7 +298,7 @@ const App = () => {
       title: "BreakMap iOS App",
       description: "Architected and deployed a SwiftUI application for breakers (breakdancers) to track their progression.",
       longDescription: "As a breaker (breakdancer), I always thought that learning new moves and figuring out what to do next was tough. Built with SwiftUI, this iOS application allows breakers to track their mastery of specific skills and visualize their progress over time.",
-      tech: ["Swift", "Go (Golang)", "PostgreSQL", "SwiftUI", "iOS Development", "Mobile Architecture"],
+      tech: ["Swift", "Go (Golang)", "PostgreSQL", "SwiftUI"],
       images: [breakmapPic1, breakmapPic2, breakmapPic3, breakmapPic4], 
       github: "https://apps.apple.com/us/app/breakmap-b-boy-companion-app/id6759797675" 
     },
