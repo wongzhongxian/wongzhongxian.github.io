@@ -298,7 +298,7 @@ const App = () => {
       title: "BreakMap iOS App",
       description: "Architected and deployed a SwiftUI application for breakers (breakdancers) to track their progression.",
       longDescription: "As a breaker (breakdancer), I always thought that learning new moves and figuring out what to do next was tough. Built with SwiftUI, this iOS application allows breakers to track their mastery of specific skills and visualize their progress over time.",
-      tech: ["SwiftUI", "iOS Development", "Mobile Architecture"],
+      tech: ["Swift", "Go (Golang)", "PostgreSQL", "SwiftUI", "iOS Development", "Mobile Architecture"],
       images: [breakmapPic1, breakmapPic2, breakmapPic3, breakmapPic4], 
       github: "https://apps.apple.com/us/app/breakmap-b-boy-companion-app/id6759797675" 
     },
@@ -306,7 +306,7 @@ const App = () => {
       title: "Singapore Sunset Bot",
       description: "Telegram bot predicting sunset beauty using a weather API and letting users share sunset photos with each other.",
       longDescription: "A Python-based Telegram bot using external weather APIs and a SQLite database. It analyzes atmospheric data to predict the quality of upcoming sunsets in Singapore. Also implements a community feature allowing users to upload and share their sunset photography, as well as rate fellow users' photos.",
-      tech: ["Python", "SQLite", "REST APIs", "Telegram Framework"],
+      tech: ["Python", "SQLite", "REST APIs"],
       images: [sunsetPic1, sunsetPic2, sunsetPic3, sunsetPic4],
       github: "https://t.me/sgsunsetbot"
     },
@@ -314,7 +314,7 @@ const App = () => {
       title: "Acai Ordering Bot",
       description: "Automated ordering for a student-led acai business in Tembusu College.",
       longDescription: "Developed to solve a real-world manpower crunch for Acailabilty, an acai business run by my friend Melvin serving residents in Tembusu College. This bot handles complex state management for order queuing, customization, and user tracking, completely replacing manual overhead with an automated backend system.",
-      tech: ["Python", "SQLite", "Backend Engineering"],
+      tech: ["Python", "SQLite"],
       images: [acaiPic1, acaiPic2, acaiPic3, acaiPic4],
       github: "https://github.com/wongzhongxian/acai-bot"
     },
@@ -322,7 +322,7 @@ const App = () => {
       title: "This Website!",
       description: "A responsive, single-page application featuring a custom functional command-line interface and modern UI.",
       longDescription: "You are looking at it! 💅 I built this entire Single Page Application using React and Tailwind CSS. It features custom state management for a simulated UNIX terminal file system, dynamic dark mode routing, and conditional rendering for these beautiful project detail pages.",
-      tech: ["React", "Tailwind CSS", "JavaScript", "Web Dev"],
+      tech: ["React", "Tailwind CSS", "JavaScript", "HTML", "Next.js"],
       images: [],
       github: "https://github.com/yourusername/portfolio-v1"
     }
